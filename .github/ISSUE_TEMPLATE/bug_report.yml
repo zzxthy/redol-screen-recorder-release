@@ -1,0 +1,117 @@
+name: Bug report
+description: Report a problem with Redol Screen Recorder.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Redol Screen Recorder. Please include enough detail for us to reproduce the issue.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Find this in the app or installer name.
+      placeholder: "1.5.0"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.5"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Recording
+        - Permissions
+        - Preview / playback
+        - Export
+        - Audio
+        - Webcam
+        - UI
+        - Installation / update
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact actions that trigger the problem.
+      placeholder: |
+        1. Open Redol Screen Recorder
+        2. Select Screen
+        3. Start recording
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots, videos, or diagnostics
+      description: Drag files here if they help explain the issue.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+*** Add File: /tmp/redol-screen-recorder-release/.github/ISSUE_TEMPLATE/feature_request.yml
+name: Feature request
+description: Suggest an improvement for Redol Screen Recorder.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What are you trying to accomplish?
+      placeholder: "I want to..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is difficult, slow, or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references
+      description: Links, screenshots, or product examples are welcome.
+*** Add File: /tmp/redol-screen-recorder-release/.github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: true
+contact_links:
+  - name: Redol Screen Recorder releases
+    url: https://github.com/zzxthy/redol-screen-recorder-release/releases
+    about: Download the latest public builds when releases are published.
