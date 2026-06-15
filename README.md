@@ -1,29 +1,50 @@
-# Redol Screen Recorder Release
+# Redol Screen Recorder 发布与反馈
 
-This is the public release and issue tracker repository for Redol Screen Recorder.
+这是 Redol Screen Recorder 的公开发布与问题反馈仓库。
 
-The application source code is maintained in a private repository. This public repository is used for:
+产品源代码维护在私有仓库中。这个公开仓库主要用于：
 
-- release notes and downloadable builds
-- bug reports
-- feature requests
-- user-facing support threads
+- 发布可下载的安装包和版本说明
+- 收集 Bug 反馈
+- 收集功能建议
+- 承接面向用户的支持讨论
 
-## Report A Bug
+English version: [readme-en.md](./readme-en.md)
 
-Open a new issue and include:
+## 下载
 
-- Redol Screen Recorder version
-- macOS version
-- what you were trying to do
-- what happened instead
-- screenshots, recordings, or diagnostic files when available
+当前阶段优先提供 macOS 客户端：
 
-## Feature Requests
+- Apple Silicon Mac: [Redol-Screen-Recorder-Mac-arm64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-arm64.dmg)
+- Intel Mac: [Redol-Screen-Recorder-Mac-x64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-x64.dmg)
 
-Use the feature request template and describe the workflow you want to improve. Concrete examples help us prioritize.
+Windows 客户端还在规划中，暂未发布。
 
-## Links
+## 反馈 Bug
+
+如果你遇到问题，请新建一个 issue，并尽量提供以下信息：
+
+- Redol Screen Recorder 版本号
+- macOS 版本
+- 你当时正在执行的操作
+- 实际发生了什么
+- 期望应该发生什么
+- 截图、录屏、导出的诊断文件或日志
+
+越具体的复现信息，越容易定位和修复问题。
+
+## 功能建议
+
+如果你希望改进某个录屏、编辑或导出流程，请使用 feature request 模板提交建议。
+
+建议里最好包含：
+
+- 你当前的使用场景
+- 现有流程哪里不顺
+- 你希望产品如何表现
+- 类似产品或截图参考
+
+## 常用链接
 
 - Issues: https://github.com/zzxthy/redol-screen-recorder-release/issues
 - Releases: https://github.com/zzxthy/redol-screen-recorder-release/releases
