@@ -15,10 +15,22 @@ Chinese version: [README.md](./README.md)
 
 The current release focuses on the macOS client:
 
+- Latest version: `v1.5.2`
+- Release date: 2026-06-21
+
 - Apple Silicon Mac: [Redol-Screen-Recorder-Mac-arm64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-arm64.dmg)
 - Intel Mac: [Redol-Screen-Recorder-Mac-x64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-x64.dmg)
 
 The Windows client is planned but not released yet.
+
+## v1.5.2 Updates
+
+- Added the Redol account center with signed-in email, plan, entitlement status, device, last verification time, and local access expiry.
+- Added account actions for refreshing status, managing subscription, switching accounts, and signing out.
+- Fixed account dialog button clicks in the floating recorder HUD.
+- Fixed large dialog clipping in the floating HUD.
+- Fixed smooth zoom behavior in native high-speed export so exported videos match the editor preview.
+- Kept backend-controlled entitlement checks so the free beta access policy can still be revoked or adjusted centrally.
 
 ## Report A Bug
 
