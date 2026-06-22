@@ -16,10 +16,11 @@ Chinese version: [README.md](./README.md)
 The current release focuses on the macOS client:
 
 - Latest version: `v1.5.2`
-- Release date: 2026-06-21
+- Release date: 2026-06-22
 
 - Apple Silicon Mac: [Redol-Screen-Recorder-Mac-arm64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-arm64.dmg)
-- Intel Mac: [Redol-Screen-Recorder-Mac-x64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-x64.dmg)
+- SHA256 checksum: [Redol-Screen-Recorder-Mac-arm64.dmg.sha256](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-arm64.dmg.sha256)
+- Intel Mac: not released yet. It will be added after the x86_64 native dependency chain is fully verified.
 
 The Windows client is planned but not released yet.
 
@@ -30,6 +31,8 @@ The Windows client is planned but not released yet.
 - Fixed account dialog button clicks in the floating recorder HUD.
 - Fixed large dialog clipping in the floating HUD.
 - Fixed smooth zoom behavior in native high-speed export so exported videos match the editor preview.
+- The published DMG is signed with Developer ID, notarized by Apple, and verified with Gatekeeper.
+- Hardened the macOS release flow so target-architecture native binaries are checked before packaging.
 - Kept backend-controlled entitlement checks so the free beta access policy can still be revoked or adjusted centrally.
 
 ## Report A Bug

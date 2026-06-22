@@ -16,10 +16,11 @@ English version: [readme-en.md](./readme-en.md)
 当前阶段优先提供 macOS 客户端：
 
 - 当前最新版本：`v1.5.2`
-- 发布日期：2026-06-21
+- 发布日期：2026-06-22
 
 - Apple Silicon Mac: [Redol-Screen-Recorder-Mac-arm64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-arm64.dmg)
-- Intel Mac: [Redol-Screen-Recorder-Mac-x64.dmg](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-x64.dmg)
+- SHA256 校验文件: [Redol-Screen-Recorder-Mac-arm64.dmg.sha256](https://github.com/zzxthy/redol-screen-recorder-release/releases/latest/download/Redol-Screen-Recorder-Mac-arm64.dmg.sha256)
+- Intel Mac: 暂未发布，等待 x86_64 原生依赖链路完成验证后提供。
 
 Windows 客户端还在规划中，暂未发布。
 
@@ -30,6 +31,8 @@ Windows 客户端还在规划中，暂未发布。
 - 修复悬浮录屏工具条中账号弹窗按钮无法点击的问题。
 - 修复较大弹窗被悬浮 HUD 裁切的问题。
 - 修复原生高速导出中的平滑缩放效果，使导出结果和编辑预览保持一致。
+- 发布包已完成 Developer ID 签名、Apple notarization 和 Gatekeeper 验证。
+- 加固 macOS 发布流程，打包前会检查目标架构的原生二进制，避免错误架构混入安装包。
 - 保留后端统一权限控制能力，测试期免费使用策略可在服务端回收或调整。
 
 ## 反馈 Bug
